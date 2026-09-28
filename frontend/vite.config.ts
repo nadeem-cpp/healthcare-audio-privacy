@@ -6,6 +6,17 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
+    babel({ presets: [reactCompilerPreset()] }),
   ],
+  worker: {
+    format: 'es',
+  },
+  optimizeDeps: {
+    exclude: [
+      'onnxruntime-web',
+      '@huggingface/transformers',
+      '@ricky0123/vad-web',
+    ],
+  },
+  assetsInclude: ['**/*.onnx', '**/*.wasm'],
 })

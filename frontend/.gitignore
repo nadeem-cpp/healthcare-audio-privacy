@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Downloaded on-device model weights
+public/models/*.onnx
+public/models/*.ort
+public/ort/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
