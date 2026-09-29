@@ -1,0 +1,197 @@
+{
+  "sample_rate": 16000,
+  "channels": 1,
+  "duration_sec": 60.172,
+  "note": "Synthetic, fictional identifiers. Timestamps are exact (entities synthesized as separate segments).",
+  "phi_window_seconds": 6.0,
+  "entities": [
+    {
+      "label": "PERSON",
+      "text": "Sarah Mitchell",
+      "speaker": "patient",
+      "start": 5.097,
+      "end": 5.992,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "DATE",
+      "text": "March twelfth, nineteen eighty four",
+      "speaker": "patient",
+      "start": 8.304,
+      "end": 10.937,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "PHONE",
+      "text": "five five five, two one eight, four four seven nine",
+      "speaker": "patient",
+      "start": 23.856,
+      "end": 27.467,
+      "crosses_6s_window": true
+    },
+    {
+      "label": "EMAIL",
+      "text": "sarah dot mitchell at example dot com",
+      "speaker": "patient",
+      "start": 29.801,
+      "end": 32.491,
+      "crosses_6s_window": true
+    },
+    {
+      "label": "ID",
+      "text": "M R N four seven two nine one eight",
+      "speaker": "clinician",
+      "start": 34.974,
+      "end": 37.077,
+      "crosses_6s_window": true
+    },
+    {
+      "label": "LOCATION",
+      "text": "forty two Oak Street, Springfield",
+      "speaker": "patient",
+      "start": 38.997,
+      "end": 41.419,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "PERSON",
+      "text": "Robert Mitchell",
+      "speaker": "patient",
+      "start": 43.08,
+      "end": 44.085,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "AGE_OVER_89",
+      "text": "ninety two",
+      "speaker": "patient",
+      "start": 44.529,
+      "end": 45.418,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "PERSON",
+      "text": "Doctor James Carter",
+      "speaker": "clinician",
+      "start": 49.659,
+      "end": 51.03,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "ORGANIZATION",
+      "text": "Riverside General Hospital",
+      "speaker": "clinician",
+      "start": 51.527,
+      "end": 53.319,
+      "crosses_6s_window": false
+    },
+    {
+      "label": "DATE",
+      "text": "October fifth, twenty twenty six",
+      "speaker": "clinician",
+      "start": 57.428,
+      "end": 59.642,
+      "crosses_6s_window": false
+    }
+  ],
+  "transcript": [
+    {
+      "speaker": "clinician",
+      "start": 0.5,
+      "end": 3.706,
+      "text": "Good morning. Can you please tell me your full name?"
+    },
+    {
+      "speaker": "patient",
+      "start": 4.156,
+      "end": 6.072,
+      "text": "My name is Sarah Mitchell"
+    },
+    {
+      "speaker": "clinician",
+      "start": 6.522,
+      "end": 7.854,
+      "text": "And your date of birth?"
+    },
+    {
+      "speaker": "patient",
+      "start": 8.304,
+      "end": 11.017,
+      "text": "March twelfth, nineteen eighty four"
+    },
+    {
+      "speaker": "clinician",
+      "start": 11.467,
+      "end": 12.836,
+      "text": "What brings you in today?"
+    },
+    {
+      "speaker": "patient",
+      "start": 13.286,
+      "end": 20.309,
+      "text": "I have had chest tightness and a dry cough for about five days. I take lisinopril ten milligrams daily."
+    },
+    {
+      "speaker": "clinician",
+      "start": 20.759,
+      "end": 22.926,
+      "text": "What is the best phone number to reach you?"
+    },
+    {
+      "speaker": "patient",
+      "start": 23.376,
+      "end": 27.547,
+      "text": "It is five five five, two one eight, four four seven nine"
+    },
+    {
+      "speaker": "clinician",
+      "start": 27.997,
+      "end": 29.351,
+      "text": "And your email?"
+    },
+    {
+      "speaker": "patient",
+      "start": 29.801,
+      "end": 32.571,
+      "text": "sarah dot mitchell at example dot com"
+    },
+    {
+      "speaker": "clinician",
+      "start": 33.021,
+      "end": 37.157,
+      "text": "I see your medical record number is M R N four seven two nine one eight"
+    },
+    {
+      "speaker": "patient",
+      "start": 37.607,
+      "end": 41.499,
+      "text": "Yes. I live at forty two Oak Street, Springfield"
+    },
+    {
+      "speaker": "patient",
+      "start": 41.949,
+      "end": 47.542,
+      "text": "My grandfather, Robert Mitchell, is ninety two and he had a heart attack last year."
+    },
+    {
+      "speaker": "clinician",
+      "start": 47.992,
+      "end": 54.82,
+      "text": "Thank you. I will ask Doctor James Carter at Riverside General Hospital to review your E C G."
+    },
+    {
+      "speaker": "clinician",
+      "start": 55.27,
+      "end": 59.722,
+      "text": "Let us schedule a follow up on October fifth, twenty twenty six"
+    }
+  ],
+  "negative_controls": [
+    "chest tightness",
+    "dry cough",
+    "five days",
+    "lisinopril ten milligrams daily",
+    "heart attack",
+    "E C G"
+  ]
+}
